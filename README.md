@@ -8,7 +8,9 @@ Due to recent Plex Server Updates, Different Buttons will work for different Ple
 
 ## How to install
 
-1. Drag this button to your bookmark
+Drag this button to your bookmark
+
+
 [💾 PlexDwnld-7](javascript:(function(){if (typeof plxDwnld == 'undefined') {var jsCode = document.createElement('script');jsCode.setAttribute('src', 'https://raw.githubusercontent.com/Solaflex/plex-scripts/main/piplongrun/plex-DL7.js?ts=%27 + Math.floor(Date.now()/1000));document.body.appendChild(jsCode);} else {plxDwnld.init();}})())
 
 ## How to use
